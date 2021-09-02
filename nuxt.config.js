@@ -1,3 +1,11 @@
+const routerBase =
+  process.env.DEPLOY_ENV === "GH_PAGES"
+    ? {
+        router: {
+          base: "/create-log/"
+        }
+      }
+    : {};
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: "static",
@@ -25,6 +33,7 @@ export default {
       }
     ]
   },
+  ...routerBase,
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
