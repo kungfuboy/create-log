@@ -14,10 +14,16 @@ export default {
       { hid: "description", name: "description", content: "" },
       { name: "format-detection", content: "telephone=no" }
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.ico" }]
-  },
-  router: {
-    base: process.env.DEPLOY_ENV === "GH_PAGES" ? "/create-log/" : "/" //此为根目录，如果有具体目录需求按实际情况写
+    link: [
+      {
+        rel: "icon",
+        type: "image/x-icon",
+        href:
+          process.env.DEPLOY_ENV === "GH_PAGES"
+            ? "./favicon.ico"
+            : "/favicon.ico"
+      }
+    ]
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
