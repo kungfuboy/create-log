@@ -17,7 +17,7 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.ico" }]
   },
   router: {
-    base: process.env.DEPLOY_ENV === "GH_PAGES" ? "./" : "/" //此为根目录，如果有具体目录需求按实际情况写
+    base: process.env.DEPLOY_ENV === "GH_PAGES" ? "/create-log/" : "/" //此为根目录，如果有具体目录需求按实际情况写
   },
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
