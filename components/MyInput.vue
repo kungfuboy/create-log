@@ -53,7 +53,15 @@
       ></i>
     </div>
     <button
-      class="border my-4 p-2 rounded-lg hover:bg-blue-300 hover:text-gray-100"
+      class="
+        border
+        my-4
+        p-2
+        rounded-lg
+        text-blue-300
+        hover:bg-blue-300
+        hover:text-gray-100
+      "
       @click="handleDown"
     >
       Create & Download
