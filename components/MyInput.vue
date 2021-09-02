@@ -58,7 +58,7 @@
         my-4
         p-2
         rounded-lg
-        text-blue-300
+        text-blue-500
         hover:bg-blue-300
         hover:text-gray-100
       "
