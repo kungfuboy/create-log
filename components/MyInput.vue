@@ -52,6 +52,13 @@
         :style="{ backgroundImage: `url(${it})` }"
       ></i>
     </div>
+    <input
+      class="border p-2.5 my-2"
+      type="text"
+      v-model="imgUrl"
+      @input="handleChangeUrl"
+      placeholder="http://..."
+    />
     <button
       class="
         border
@@ -77,6 +84,7 @@ export default {
   data: () => ({
     title: '',
     text: '',
+    imgUrl: '',
     colorList: ['#233', '#fff']
   }),
   computed: {
@@ -102,6 +110,9 @@ export default {
         .then(function (dataUrl) {
           saveAs(dataUrl, `pic-${Date.now()}.png`)
         })
+    },
+    handleChangeUrl() {
+      this.$store.commit('changeBg', this.imgUrl)
     }
   }
 }
