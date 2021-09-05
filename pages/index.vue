@@ -1,5 +1,5 @@
 <template>
-  <section class="flex justify-around mt-8">
+  <section class="flex justify-center mt-8">
     <MyInput @changing="handleChange" />
     <MyCanvas :data="data" />
   </section>
