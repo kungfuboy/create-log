@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a,b){return {staticAssetsBase:"\u002Fcreate-log\u002F_nuxt\u002Fstatic\u002F1630805534",layout:"default",error:a,state:{bg:b,color:b},serverRendered:true,routePath:"\u002F",config:{_app:{basePath:"\u002Fcreate-log\u002F",assetsPath:"\u002Fcreate-log\u002F_nuxt\u002F",cdnURL:a}}}}(null,""));

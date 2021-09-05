@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{160:function(n,o,t){t(161),n.exports=t(162)},207:function(n,o,t){"use strict";t.r(o),t.d(o,"state",(function(){return c})),t.d(o,"mutations",(function(){return r}));var c=function(){return{bg:"",color:""}},r={changeBg:function(n,data){n.bg=data},changeColor:function(n,data){n.color=data}}}},[[160,6,2,7]]]);
