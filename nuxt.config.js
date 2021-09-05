@@ -12,7 +12,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "create-log",
+    title: "生成图片",
     htmlAttrs: {
       lang: "en"
     },
