@@ -4,16 +4,12 @@
     <MyCanvas :data="data" />
   </section>
 </template>
+<script setup>
 
-<script>
-export default {
-  data: () => ({
-    data: null
-  }),
-  methods: {
-    handleChange(data) {
-      this.data = data
-    }
-  }
+const data = ref({})
+
+const handleChange = (object) => {
+  data.value = object
 }
+
 </script>
